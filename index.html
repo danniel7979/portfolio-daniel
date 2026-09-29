@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b2035">
+  <meta name="description"
+    content="Portfolio de Daniel Porteiro Rodríguez, desarrollador Full Stack. Portergram, Jornada Laboral y aplicaciones web para negocios.">
+  <title>Daniel Porteiro Rodríguez · Desarrollador Full Stack</title>
+  <script src="./gallery.js" defer></script>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="shell nav-row">
+      <a class="brand" href="#inicio" aria-label="Daniel Porteiro, inicio"><span class="brand-mark">DP<span
+            class="brand-period">.</span></span><span>Daniel Porteiro</span></a>
+      <nav aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a><a href="#trayectoria">Trayectoria</a><a href="#formacion">Formación</a><a
+          href="#contacto">Contacto</a>
+      </nav>
+      <a class="nav-cv" href="./CV_Daniel_Porteiro.pdf" download>Descargar CV <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="intro shell" id="inicio" aria-labelledby="intro-title">
+      <div class="intro-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> PORTFOLIO / DESARROLLO WEB</p>
+        <h1 id="intro-title">Hola, soy <span>Daniel.</span><br>Desarrollo productos web completos.</h1>
+        <p class="intro-lead">Trabajo en frontend y backend: construyo interfaces con Angular y TypeScript, APIs con
+          Node.js o Java y Spring Boot, e integro autenticación, datos y comunicación en tiempo real.</p>
+        <div class="intro-actions"><a class="button button-primary" href="#proyectos">Ver proyectos <span
+              aria-hidden="true">↘</span></a><a class="button button-outline"
+            href="mailto:danniel_7979@hotmail.com">Hablemos <span aria-hidden="true">↗</span></a></div>
+        <div class="intro-meta"><span>A Coruña, Galicia</span><span class="meta-divider"></span><span>Remoto en España ·
+            Híbrido en A Coruña</span></div>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait-accent" aria-hidden="true"></div><img src="./assets/daniel.png"
+          alt="Retrato de Daniel Porteiro Rodríguez" width="380" height="490"><span class="portrait-caption">DANIEL
+          PORTEIRO RODRÍGUEZ<br><strong>FULL STACK DEVELOPER</strong></span>
+      </div>
+    </section>
+    <section class="section-projects" id="proyectos" aria-labelledby="projects-title">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">01 / TRABAJO SELECCIONADO</p>
+            <h2 id="projects-title">Proyectos</h2>
+          </div>
+          <p>Aplicaciones propias y soluciones digitales para distintos tipos de negocio.</p>
+        </div>
+        <div class="featured-grid">
+          <article class="feature-card feature-portergram" data-project="portergram">
+            <div data-cover="./assets/projects/portergram-1" class="feature-visual tile tile-1" role="img"
+              aria-label="Ilustración de una red social con perfiles y mensajes"><span class="visual-index">01 /
+                10</span></div>
+            <div class="feature-body">
+              <div class="card-topline"><span class="tag">PROYECTO PERSONAL</span><span class="status">TERMINADO ·
+                  RESPONSIVO</span></div>
+              <h3>Portergram</h3>
+              <p class="feature-summary">Una red social Full Stack con perfiles, seguimiento, publicaciones,
+                comentarios, stories, chat y mundos interactivos.</p>
+              <div class="tech-list"><span>Angular
+                  21</span><span>TypeScript</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Socket.IO</span><span>JWT</span>
+              </div>
+              <div class="case-block">
+                <h4>Cómo funciona</h4>
+                <p>Angular organiza las vistas y consume rutas protegidas mediante JWT. La API guarda usuarios,
+                  relaciones y contenido en MongoDB. Socket.IO transmite mensajes y presencia en tiempo real. «Mi Mundo»
+                  traduce la actividad del usuario en reglas, eventos, niveles y etapas visuales de progreso.</p>
+              </div>
+              <div class="case-block">
+                <h4>Retos y soluciones</h4>
+                <p>El diseño de escritorio desbordaba en varios anchos y el jardín perdía el desplazamiento vertical:
+                  revisé rejillas, puntos de ruptura, navegación y controles táctiles en móvil y tablet. En el backend
+                  corregí un registro duplicado del modelo de comentarios que impedía arrancar la API y depuré el motor
+                  de niveles y sus eventos.</p>
+              </div>
+              <div class="project-links"><a class="detail-link" href="./proyectos/portergram.html">Ver proyecto y
+                  fotos</a><a href="https://github.com/danniel7979/portergram-frontend" target="_blank"
+                  rel="noopener noreferrer">Código frontend ↗</a><a
+                  href="https://github.com/danniel7979/portergram-backend" target="_blank"
+                  rel="noopener noreferrer">Código backend ↗</a></div>
+            </div>
+          </article>
+          <article class="feature-card feature-jornada" data-project="jornada-laboral">
+            <div data-cover="./assets/projects/jornada-laboral-1" class="feature-visual tile tile-2" role="img"
+              aria-label="Ilustración de calendario de turnos y control horario"><span class="visual-index">02 /
+                10</span></div>
+            <div class="feature-body">
+              <div class="card-topline"><span class="tag">APLICACIÓN FULL STACK</span><span
+                  class="status status-progress">EN DESARROLLO</span></div>
+              <h3>Jornada Laboral</h3>
+              <p class="feature-summary">Gestión empresarial de fichajes, pausas, contratos e historial; resúmenes
+                semanales e informes mensuales en PDF.</p>
+              <div class="tech-list"><span>Angular</span><span>TypeScript</span><span>Java 21</span><span>Spring
+                  Boot</span><span>Spring Security</span><span>MySQL</span><span>JPA/Hibernate</span><span>Maven</span>
+              </div>
+              <div class="case-block">
+                <h4>Cómo funciona</h4>
+                <p>La interfaz se comunica con una API Java protegida con JWT. El empleado registra su jornada y la
+                  planificación actual permite asignar un turno por trabajador y fecha. Los datos se guardan en MySQL y
+                  alimentan el historial y los informes.</p>
+              </div>
+              <div class="case-block">
+                <h4>Retos y soluciones</h4>
+                <p>Resolví el rechazo de credenciales de MySQL y la falta de metadatos JDBC corrigiendo la configuración
+                  y sacando la contraseña del código. Detecté que el puerto 8080 estaba ocupado, arranqué el servidor en
+                  8081 y comprobé la compilación y los tests con Maven.</p>
+              </div>
+              <p class="next-step"><strong>En ampliación:</strong> horarios de lunes a domingo para semana, mes o
+                contrato, cambios diarios y pausas configurables.</p><a>privado aun en desarrollo</a>
+            </div>
+          </article>
+        </div>
+        <div class="more-heading">
+          <h3>Más proyectos</h3>
+          <p>Una selección de webs y herramientas orientadas a casos reales de uso.</p>
+        </div>
+        <div class="project-grid">
+          <article class="small-card">
+            <div data-cover="./assets/projects/cabanas-madera-1" class="small-visual tile tile-4" role="img"
+              aria-label="Ilustración de cabañas de madera en el bosque"></div>
+            <div class="small-body"><span class="project-type">WEB COMERCIAL</span>
+              <h4>Cabañas Madera</h4>
+              <p>Sitio comercial para presentar cabañas de madera y facilitar el contacto.</p><a class="detail-link"
+                href="./proyectos/cabanas-madera.html">Ver proyecto y fotos</a>
+              <a href="https://github.com/danniel7979/caba-as">GitHub</a>
+            </div>
+          </article>
+          <article class="small-card">
+            <div data-cover="./assets/projects/flores-1" class="small-visual tile tile-5" role="img"
+              aria-label="Ilustración de una floristería"></div>
+            <div class="small-body"><span class="project-type">CATÁLOGO Y PEDIDOS</span>
+              <h4>Flores</h4>
+              <p>Catálogo con carrito que envía el pedido por WhatsApp.</p><a class="detail-link"
+                href="./proyectos/flores.html">Ver proyecto y fotos</a>
+                <a href="https://github.com/danniel7979/floristeria">github</a>
+            </div>
+          </article>
+          <article class="small-card">
+            <div data-cover="./assets/projects/kebap-1" class="small-visual tile tile-6" role="img"
+              aria-label="Ilustración de un kebab"></div>
+            <div class="small-body"><span class="project-type">CATÁLOGO Y PEDIDOS</span>
+              <h4>Kebap</h4>
+              <p>Web de restaurante con carrito de compra y envío del pedido por WhatsApp.</p><a
+                class="detail-link" href="./proyectos/kebap.html">Ver proyecto y fotos</a>
+                <a href="https://github.com/danniel7979/kebab">GitHub</a>
+            </div>
+          </article>
+          <article class="small-card">
+            <div data-cover="./assets/projects/restaurante-1" class="small-visual tile tile-7" role="img"
+              aria-label="Ilustración de un restaurante"></div>
+            <div class="small-body"><span class="project-type">RESERVAS</span>
+              <h4>Restaurante</h4>
+              <p>Reservas con confirmaciones por SMS y panel de administración.</p>
+              <a class="detail-link"
+                href="./proyectos/restaurante.html">Ver proyecto y fotos</a>
+                <a href="https://github.com/danniel7979/restaurante">GitHub</a>
+            </div>
+          </article>
+          <article class="small-card">
+            <div data-cover="./assets/projects/peluqueria-1" class="small-visual tile tile-8" role="img"
+              aria-label="Ilustración de una peluquería"></div>
+            <div class="small-body"><span class="project-type">RESERVAS</span>
+              <h4>Peluquería</h4>
+              <p>Agenda de citas y avisos automáticos por SMS.</p><a class="detail-link"
+                href="./proyectos/peluqueria.html">Ver proyecto y fotos</a>
+              <a href="https://github.com/danniel7979/peluqueria">GitHub</a>
+            </div>
+          </article>
+          <article class="small-card">
+            <div data-cover="./assets/projects/dulces-1" class="small-visual sweets-visual" role="img"
+              aria-label="Ilustración de repostería artesanal"></div>
+            <div class="small-body"><span class="project-type">WEB COMERCIAL</span>
+              <h4>Dulces</h4>
+              <p>Proyecto web para presentar productos de repostería.</p><a class="detail-link"
+                href="./proyectos/dulces.html">Ver proyecto y fotos</a>
+              <a href="https://github.com/danniel7979/dulces">GitHub</a>
+            </div>
+          </article>
+        </div>
+        <p class="image-note">Las imágenes de las tarjetas son ilustraciones conceptuales; los enlaces llevan a los
+          proyectos cuando hay una versión disponible.</p>
+      </div>
+    </section>
+    <section class="profile-section shell" id="trayectoria" aria-labelledby="trajectory-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">02 / TRAYECTORIA</p>
+          <h2 id="trajectory-title">Experiencia y enfoque</h2>
+        </div>
+        <p>Desarrollo web aplicado a productos, reservas, contenidos y soluciones para negocio.</p>
+      </div>
+      <div class="trajectory-layout">
+        <div class="timeline">
+          <article><span class="timeline-date">NOV 2025 — ACTUAL</span>
+            <h3>Desarrollador web <span>· JELUDA</span></h3>
+            <p>Aplicaciones y páginas orientadas a negocio. Reservas con Next.js, React, Tailwind, PostgreSQL, Supabase,
+              Prisma y Zod; SMS y tareas programadas para recordatorios, con despliegue en Vercel.</p>
+          </article>
+          <article><span class="timeline-date">NOV 2025 — MAR 2026</span>
+            <h3>Desarrollador web <span>· Asesor.Legal</span></h3>
+            <p>Creación y mantenimiento de páginas con Gutenberg y Elementor. Gestión de contenidos con Directorist,
+              redirecciones y ajustes de estructura.</p>
+          </article>
+          <article><span class="timeline-date">ABR 2014 — ACTUAL</span>
+            <h3>Mozo de almacén <span>· Prado Mazaira S.L.</span></h3>
+            <p>Producción, carga y descarga; actividad continuada compaginada con formación y desarrollo de software.
+            </p>
+          </article>
+        </div>
+        <aside class="ai-panel"><span class="panel-kicker">MI FORMA DE TRABAJAR</span>
+          <h3>IA aplicada, criterio propio.</h3>
+          <p>Uso IA generativa para descomponer funciones, explorar alternativas de arquitectura, analizar errores y
+            revisar propuestas de código. La utilicé en la adaptación responsiva y la progresión de Portergram, y para
+            estudiar la configuración Spring/MySQL de Jornada Laboral.</p>
+          <p>Contrasto cada propuesta con el código, los registros, la compilación y las pruebas. Decido cómo integrarla
+            y compruebo el resultado de extremo a extremo.</p>
+        </aside>
+      </div>
+    </section>
+    <section class="skills-section" id="formacion" aria-labelledby="education-title">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">03 / FORMACIÓN Y COMPETENCIAS</p>
+            <h2 id="education-title">Lo que sé y sigo aprendiendo</h2>
+          </div>
+        </div>
+        <div class="skills-layout">
+          <div class="education">
+            <h3>Formación</h3>
+            <article><span>05 / 2025</span>
+              <div>
+                <h4>Programación y Desarrollo Web · MasterD</h4>
+                <p>975 horas · Nota media 8,7 · HTML, CSS, JavaScript, PHP, MySQL, React, Angular, Next.js, Node.js, Git
+                  y Linux.</p>
+              </div>
+            </article>
+            <article><span>09 / 2025</span>
+              <div>
+                <h4>Víctor Robles Web</h4>
+                <p>Creación de más de 100 proyectos y publicación web.</p>
+              </div>
+            </article>
+            <article><span>DESDE 09 / 2025</span>
+              <div>
+                <h4>Aprender a crear una red social · Udemy</h4>
+                <p>Formación online en JavaScript, Angular 21 y Node.js.</p>
+              </div>
+            </article>
+          </div>
+          <div class="skill-groups">
+            <h3>Stack técnico</h3>
+            <div>
+              <h4>Frontend</h4>
+              <p>Angular · TypeScript · JavaScript · React · Next.js · HTML5 · CSS3 · Tailwind</p>
+            </div>
+            <div>
+              <h4>Backend</h4>
+              <p>Java 21 · Spring Boot · Spring Security · Node.js · Express · PHP · REST API · JWT · Socket.IO</p>
+            </div>
+            <div>
+              <h4>Datos y herramientas</h4>
+              <p>MySQL · MongoDB · PostgreSQL · JPA/Hibernate · Supabase · Prisma · Maven · Git · GitHub · GitLab ·
+                Linux · Vercel · Scrum</p>
+            </div>
+            <div>
+              <h4>Idiomas</h4>
+              <p>Español C2 · Gallego C2 · Inglés A2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section shell" id="contacto" aria-labelledby="contact-title">
+      <p class="eyebrow">04 / CONTACTO</p>
+      <h2 id="contact-title">¿Hablamos de tu próximo proyecto?</h2>
+      <p>Busco oportunidades en frontend, backend o Full Stack. Disponible para trabajar en remoto desde España o en
+        modalidad híbrida en la provincia de A Coruña.</p>
+      <div class="contact-actions"><a class="button button-primary"
+          href="mailto:danniel_7979@hotmail.com">danniel_7979@hotmail.com ↗</a><a class="button button-outline"
+          href="https://github.com/danniel7979" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+      <p class="contact-phone">A Coruña, Galicia · <a href="tel:+34626891986">+34 626 891 986</a></p>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="shell"><span>© 2026 Daniel Porteiro Rodríguez</span><a href="#inicio">Volver arriba ↑</a></div>
+  </footer>
+</body>
+
+</html>
